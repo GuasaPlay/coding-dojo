@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f2f2f2;
+}
+
+.card {
+	position: relative;
+	width: 550px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+	width: 100%;
+	height: 100px;
+	background-color: #17a2b8;
+	border-radius: 10px 10px 0px 0px;
+}
+
+/* Avatar absolte position */
+
+.avatar {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-avatar {
+	width: calc(100% - 6px);
+	height: calc(100% - 6px);
+	border-radius: 50%;
+}
+
+.info-container {
+	margin: 50px 0 18px 50px;
+}
+
+.address {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.icon-map-maker {
+	width: 15px;
+	height: 20px;
+	margin-right: 10px;
+}
+.icon-map-maker img {
+	width: 100%;
+	height: 100%;
+}
+
+.skills,
+.specialty {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.edit {
+	margin-top: 12px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.icon-gear {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.icon-gear img {
+	width: 100%;
+	height: 100%;
+}
+
+.edit-button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	text-decoration: underline;
+	color: #2c79e4;
+	font-weight: 700;
+}
