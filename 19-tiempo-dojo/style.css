@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Nav */
+.nav {
+	background-color: #333333;
+	color: white;
+}
+
+.nav-container {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	padding: 0 24px;
+}
+
+.nav-section-left {
+	align-items: center;
+	display: flex;
+}
+.nav-section-right {
+	align-items: center;
+	display: flex;
+}
+
+.nav-title {
+	font-size: 32px;
+}
+
+.nav-links {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding-left: 32px;
+}
+
+.nav-links a {
+	color: rgb(185, 185, 185);
+	font-size: 14px;
+	margin-right: 24px;
+	text-decoration: none;
+}
+
+/* Main container */
+.main-container {
+	gap: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 24px;
+	max-width: 900px;
+	padding: 0 24px;
+}
+
+.title-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #333333;
+}
+
+/* main-section */
+
+.main-section {
+	width: 100%;
+	display: flex;
+	gap: 24px;
+	margin-top: 24px;
+}
+
+.card {
+	border-radius: 8px;
+	background-color: #f2f2f2;
+	padding: 12px;
+	width: 100%;
+	flex: 1;
+}
+
+.card-header {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+.card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 16px;
+	gap: 12px;
+}
+
+.card-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.card-image img {
+	width: 100%;
+	height: 100%;
+}
+
+.card-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 12px;
+}
+
+.degrees {
+	font-size: 16px;
+	font-weight: 600;
+}
+.max {
+	color: red;
+}
+.min {
+	color: lightskyblue;
+}
+
+.cookie {
+	background-color: #f2f2f2;
+	border-radius: 8px;
+	border: 2px solid #8a8888;
+	bottom: 24px;
+	display: flex;
+	gap: 12px;
+	left: 24px;
+	padding: 12px;
+	position: fixed;
+	right: 24px;
+	align-items: center;
+}
+
+.cookie-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.cookie-image img {
+	width: 100%;
+	height: 100%;
+}
+
+.cookie-content {
+	flex: 1;
+}
+
+.cookie-button {
+	border: none;
+	background-color: #333333;
+	border-radius: 6px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 8px;
+	text-decoration: none;
+	cursor: pointer;
+}

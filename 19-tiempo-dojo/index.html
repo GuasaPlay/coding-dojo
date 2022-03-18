@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>TiempoDojo</title>
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="nav-container">
+				<section class="nav-section-left">
+					<h1 class="nav-title">DojoWeather</h1>
+				</section>
+				<section class="nav-section-left">
+					<ul class="nav-links">
+						<li>
+							<a href="#" onclick="loading()">Burbank</a>
+						</li>
+						<li>
+							<a href="#">Chicago</a>
+						</li>
+						<li>
+							<a href="#">Dallas</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</nav>
+		<div class="main-container">
+			<div class="title-container">
+				<div>
+					<h2>San Jose</h2>
+				</div>
+				<div>
+					<label for="temperature">show temperature in</label>
+					<select id="temperature" name="temperature" onchange="convert(this)">
+						<option value="C" selected>°C</option>
+						<option value="F">°F</option>
+					</select>
+				</div>
+			</div>
+
+			<section class="main-section">
+				<div class="card">
+					<header class="card-header">Today</header>
+					<div class="card-body">
+						<div class="card-image">
+							<img src="./assets/some_rain.png" alt="some_rain" />
+						</div>
+						<span>some rain</span>
+					</div>
+					<footer class="card-footer">
+						<span class="degrees max" id="temp1">24°</span>
+						<span class="degrees min" id="temp2">18°</span>
+					</footer>
+				</div>
+				<div class="card">
+					<header class="card-header">Tomorrow</header>
+					<div class="card-body">
+						<div class="card-image">
+							<img src="./assets/some_sun.png" alt="some_sun" />
+						</div>
+						<span>some run</span>
+					</div>
+					<footer class="card-footer">
+						<span class="degrees max" id="temp3">27°</span>
+						<span class="degrees min" id="temp4">19°</span>
+					</footer>
+				</div>
+				<div class="card">
+					<header class="card-header">Friday</header>
+					<div class="card-body">
+						<div class="card-image">
+							<img src="./assets/some_clouds.png" alt="some_clouds" />
+						</div>
+						<span>some clouds</span>
+					</div>
+					<footer class="card-footer">
+						<span class="degrees max" id="temp5">21°</span>
+						<span class="degrees min" id="temp6">16°</span>
+					</footer>
+				</div>
+				<div class="card">
+					<header class="card-header">Saturday</header>
+					<div class="card-body">
+						<div class="card-image">
+							<img src="./assets/some_sun.png" alt="some_sun" />
+						</div>
+						<span>some sun</span>
+					</div>
+					<footer class="card-footer">
+						<span class="degrees max" id="temp7">26°</span>
+						<span class="degrees min" id="temp8">21°</span>
+					</footer>
+				</div>
+			</section>
+			<div class="cookie">
+				<div class="cookie-image">
+					<img src="assets/cookie.png" alt="cookie" />
+				</div>
+				<div class="cookie-content">
+					<h3>Stop! Cookie Time</h3>
+					<div>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nulla cumque, modi inventore, officiis
+						soluta et esse vitae reiciendis aspernatur illo assumenda eaque dolorum quaerat, tenetur corrupti
+						magnam voluptatum eveniet.
+					</div>
+				</div>
+				<div>
+					<button class="cookie-button" onclick="accept()">I Accept</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
