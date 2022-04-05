@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-color: #062134;
+	padding: 0 12px;
+}
+
+.main-container {
+	background-color: #fff;
+	padding: 18px;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #062134;
+	padding: 18px 0;
+}
+
+.navbar-container {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 18px;
+}
+
+.navbar-section-left {
+	align-items: center;
+	display: flex;
+}
+.navbar-section-right {
+	align-items: center;
+	display: flex;
+}
+
+.navbar-title {
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.white-title {
+	color: #fff;
+}
+
+.blue-title {
+	color: #1b98e6;
+}
+
+.navbar-links {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding-left: 32px;
+}
+
+.navbar-links a {
+	color: rgb(185, 185, 185);
+	font-size: 16px;
+	font-weight: 600;
+	margin-right: 24px;
+	text-decoration: none;
+}
+
+.navbar-links .active {
+	color: #2b5d82;
+}
+
+/* banner */
+.banner-container {
+	width: 100%;
+}
+
+.banner {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* cards */
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 24px;
+	width: 100%;
+	gap: 24px;
+}
+
+.card {
+	background-color: #1468a8;
+	padding: 12px;
+	width: 100%;
+	flex: 1;
+}
+
+.card-header {
+	align-items: center;
+	display: flex;
+	margin-bottom: 12px;
+}
+
+.wrench-icon {
+	color: #fff;
+	font-size: 24px;
+	margin-right: 12px;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrench-icon img {
+	height: 48px;
+	width: 48px;
+}
+
+.card-title {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.card-body {
+	padding: 0 12px;
+	margin-bottom: 24px;
+}
+
+.card-description {
+	color: #fff;
+	font-size: 14px;
+}
+
+.card-footer {
+	padding: 0 12px;
+	padding-bottom: 12px;
+}
+
+.button-card {
+	background: linear-gradient(180deg, rgba(69, 171, 236, 1) 50%, rgba(25, 145, 221, 1) 50%);
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 12px;
+	text-transform: uppercase;
+	padding: 12px 32px;
+	cursor: pointer;
+}
+
+/* about */
+
+.about-container {
+	display: flex;
+	margin-top: 32px;
+	width: 100%;
+	gap: 24px;
+}
+
+/* goal section */
+
+.goal-section {
+	flex: 2;
+}
+
+.title {
+	color: #062134;
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+}
+
+.goal-info {
+	width: 100%;
+	display: flex;
+	gap: 24px;
+}
+
+.goal-banner {
+	flex: 1;
+}
+
+.goal-banner img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.goal-description {
+	flex: 1;
+}
+
+.goal-description p {
+	font-family: Arial, sans-serif;
+	color: #062134;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+.goal-text-button {
+	margin-top: 12px;
+	background-color: transparent;
+	border: none;
+	color: #5c99c2;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.testimonial-section {
+	flex: 1;
+}
+
+.quote {
+	background-color: #daedff;
+	padding: 32px 24px 42px 24px;
+	position: relative;
+	margin-bottom: 32px;
+}
+.quote p {
+	color: #062134;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+
+.arrow-quote {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #daedff;
+	bottom: -10px;
+	left: 40px;
+	transform: rotate(45deg);
+}
+
+.author {
+	color: #062134;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+
+/* fotter */
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #daedff;
+	padding: 24px;
+}
+
+.navbar-links-footer {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding-left: 32px;
+}
+
+.navbar-links-footer a {
+	color: #287cbd;
+	font-size: 16px;
+	font-weight: 400;
+	margin-right: 24px;
+	text-decoration: none;
+}
+
+.navbar-links-footer .active {
+	color: #71abd8;
+}

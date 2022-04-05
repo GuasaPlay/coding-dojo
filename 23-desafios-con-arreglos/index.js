@@ -21,6 +21,7 @@ function highPass(arr, cutoff) {
 	return filteredArr;
 }
 
+// betterThanAverage
 function betterThanAverage(arr) {
 	let sum = 0;
 
@@ -39,7 +40,9 @@ function betterThanAverage(arr) {
 	return count;
 }
 var result = betterThanAverage([6, 8, 3, 10, -2, 5, 9]);
+console.log(result);
 
+// reverse
 function reverse(arr) {
 	var left = 0;
 	var right = arr.length - 1;
@@ -55,7 +58,9 @@ function reverse(arr) {
 }
 
 var result = reverse(['a', 'b', 'c', 'd', 'e']);
+console.log(result);
 
+// fibonacciArray
 function fibonacciArray(n) {
 	let fibArr = [0, 1];
 	while (fibArr.length < n) {
@@ -65,6 +70,5 @@ function fibonacciArray(n) {
 	}
 	return fibArr;
 }
-
 var result = fibonacciArray(10);
 console.log(result);
